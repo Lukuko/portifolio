@@ -7,8 +7,8 @@ export default function Home() {
             <div className="lg:max-w-lg">
               <h2 className="text-base/7 font-semibold text-indigo-600">Davi Menezes - Desenvolvedor</h2>
               <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">Currículo profisional</p>
-              <p className="mt-6 text-lg/8 text-gray-600">Sou programador com forte afinidade por tecnologia, movido pela curiosidade e pela busca constante de aprendizado . Tenho experiência no desenvolvimento de aplicações modernas, com foco em performance, usabilidade, segurança e suporte. Gosto de transformar ideias em sistemas funcionais, seja automatizando processos, construindo APIs robustas ou desenvolvendo interfaces intuitivas.
-                <br />Sou objetivo, pragmático, proativo e tenho facilidade para aprender novas ferramentas e linguagens. Trabalho bem tanto de forma independente quanto em equipe, sempre com foco em entregar valor real por meio da tecnologia.</p>
+              <p className="mt-6 text-lg/8 text-gray-600 " >Sou programador com forte afinidade por tecnologia, movido pela curiosidade e pela busca constante de aprendizado . Tenho experiência no desenvolvimento de aplicações modernas, com foco em performance, usabilidade, segurança e suporte. Gosto de transformar ideias em sistemas funcionais, seja automatizando processos, construindo APIs robustas ou desenvolvendo interfaces intuitivas.
+                <br />Sou objetivo, pragmático, proativo, tenho facilidade para aprender novas ferramentas e linguagens. Trabalho bem tanto de forma independente quanto em equipe, sempre com foco em entregar valor real por meio da tecnologia.</p>
               <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none">
                 <div className="relative pl-9">
                   <dt className="inline font-semibold text-gray-900">
@@ -17,7 +17,7 @@ export default function Home() {
                     </svg>
                     Experiência com deploy de aplicações em nuvem:
                   </dt>
-                  <br /><dd className="inline">Experiência com google cloud e infraestrutura de rede para criação de sites(registro de domínio, configuração de dns usando cloudflare e deploy de aplicações em vms usando Apache Web Server(linux) e IIS(windows)</dd>
+                  <br /><dd className="inline">Experiência com google cloud e infraestrutura de rede para criação de sites,registro de domínio, configuração de dns usando cloudflare e deploy de aplicações em vms usando Apache Web Server(Linux), NGNIX(Linux) e IIS(Windows)</dd>
                 </div>
                 <div className="relative pl-9">
                   <dt className="inline font-semibold text-gray-900">
@@ -112,18 +112,6 @@ export default function Home() {
                 </dd>
               </div>
               <br/>
-              <div className="relative pl-9">
-                <dt className="inline font-semibold text-gray-900">
-                  Sobre o site:
-                </dt>
-                <br /><dd className="inline">
-                  Esse site foi feito utilizando o framework React js(via NextJs) para estrutura/comportamento e Tailwindcss para estilização
-                  <br />
-                  O deploy do mesmo foi feito via Google Cloud
-                  <br />
-                 Site feito por Davi Menezes
-                </dd>
-              </div>
             </div>
           </div>
         </div>
